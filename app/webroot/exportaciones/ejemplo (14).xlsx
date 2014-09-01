@@ -1,0 +1,234 @@
+<div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	&#039;id&#039; =&gt; &#039;79&#039;,
+	&#039;name&#039; =&gt; &#039;ola&#039;,
+	&#039;datos&#039; =&gt; &#039;[[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;jo jo&quot;,&quot;&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;este&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]]&#039;,
+	&#039;user_id&#039; =&gt; &#039;5&#039;,
+	&#039;created&#039; =&gt; &#039;2014-08-26&#039;,
+	&#039;modified&#039; =&gt; &#039;2014-08-26&#039;
+)
+</pre>
+</div><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fcd6e395ee6-trace').style.display = (document.getElementById('cakeErr53fcd6e395ee6-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Dato [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53fcd6e395ee6-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fcd6e395ee6-code').style.display = (document.getElementById('cakeErr53fcd6e395ee6-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fcd6e395ee6-context').style.display = (document.getElementById('cakeErr53fcd6e395ee6-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53fcd6e395ee6-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;die();</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Dato'</span><span style="color: #007700">][</span><span style="color: #DD0000">'datos'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53fcd6e395ee6-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;79&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;jo jo&quot;,&quot;&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;este&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-26&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-26&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;79&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;datos&#039; =&gt; &#039;[[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;jo jo&quot;,&quot;&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;este&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-26&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-26&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53fcd6e366acb&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 2
+$post = array(
+	&#039;id&#039; =&gt; &#039;79&#039;,
+	&#039;name&#039; =&gt; &#039;ola&#039;,
+	&#039;datos&#039; =&gt; &#039;[[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;jo jo&quot;,&quot;&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;este&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]]&#039;,
+	&#039;user_id&#039; =&gt; &#039;5&#039;,
+	&#039;created&#039; =&gt; &#039;2014-08-26&#039;,
+	&#039;modified&#039; =&gt; &#039;2014-08-26&#039;
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	&#039;password&#039; =&gt; &#039;*****&#039;,
+	&#039;id&#039; =&gt; &#039;5&#039;,
+	&#039;name&#039; =&gt; &#039;ola&#039;,
+	&#039;lastname&#039; =&gt; &#039;ola&#039;,
+	&#039;username&#039; =&gt; &#039;admin2&#039;,
+	&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+	&#039;active&#039; =&gt; &#039;1&#039;,
+	&#039;group_id&#039; =&gt; &#039;0&#039;,
+	&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+	&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+)
+</pre>
+</div><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fcd6e3d1005-trace').style.display = (document.getElementById('cakeErr53fcd6e3d1005-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Dato [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53fcd6e3d1005-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fcd6e3d1005-code').style.display = (document.getElementById('cakeErr53fcd6e3d1005-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fcd6e3d1005-context').style.display = (document.getElementById('cakeErr53fcd6e3d1005-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53fcd6e3d1005-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;die();</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Dato'</span><span style="color: #007700">][</span><span style="color: #DD0000">'datos'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53fcd6e3d1005-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;79&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;jo jo&quot;,&quot;&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;este&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-26&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-26&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;79&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;datos&#039; =&gt; &#039;[[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;jo jo&quot;,&quot;&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;jo&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;este&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-26&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-26&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53fcd6e366acb&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 3
+$post = array(
+	&#039;password&#039; =&gt; &#039;*****&#039;,
+	&#039;id&#039; =&gt; &#039;5&#039;,
+	&#039;name&#039; =&gt; &#039;ola&#039;,
+	&#039;lastname&#039; =&gt; &#039;ola&#039;,
+	&#039;username&#039; =&gt; &#039;admin2&#039;,
+	&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+	&#039;active&#039; =&gt; &#039;1&#039;,
+	&#039;group_id&#039; =&gt; &#039;0&#039;,
+	&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+	&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre>PK    FnEGíD≤X       [Content_Types].xml≠îMN√0Ö˜ú"Ú%nY ÑövAa	ï(0ˆ§±Íÿñg˙w{&iâ@’nbEˆ{ﬂ¯yÏ—d€∏l	m•ëÅ◊¡Xø(≈€¸)øíÚFπ‡°;@1_çÊªò±ÿc)j¢x/%ÍÖEà‡y¶
+©Qƒøi!£“Kµ y3‹J<ÅßúZ1Ω0?YŸL%zVc‰÷Ib7ÿá˚âÏa/lŸ•P1:´q·rÌÕj™ j0AØñùÕuÎ""Ì‡Ÿ(å	î¡ÄWÏMè‰)TjÂ({‹≤˚>ÛO„¬,XŸ≠¡⁄∆>BˇÜ~◊≠œÇı”§6‹J=°oBZæá∞ºtÏÌX4 ˙æCgÒ,ÖàíQg mrLŸŸØcÔeÎê‡t¯±	Zı?âá¥ªhPv√¬±˙ˇu’jï¿ºR‚Ê∏¯ç˚Ó}¨Cv÷¯PK    FnE∂78È   K     _rels/.rels≠íÕj√0ÄÔ{
+£{£¥Ö1Fù^ †∑2≤–lÂá$ñ±Ω-}˚yá±∫“√éñ•OüÑv˚y’;áÿã”∞.JPÏåÿﬁµ^Íß’®ò»Y≈±Ü3GÿWwªg)Âöÿı>™qQCóíDå¶„âb!û]˛i$LîÚ3¥Ë…‘2n Ú√oT¶:Z·h∑†Í≥Á[ÿ“4Ω·Éò∑â]∫–yNÏ,€ïπ>§>£j
+-'VÃ)á#í˜EF^6⁄‹nÙ˜¥8q"Kâ–H‡Î>_◊Ñ÷ˇπ¢e∆èÕ<‚áÑ·Ud¯v¡≈TüPK    FnEÑ$±VÈ   π     xl/_rels/workbook.xml.rels≠í¡j√0DÔ˝
+±˜ZvZJ)ës)Å\[˜Ñ¥∂LlIh7m˝˜UH°üƒ¨ÿô«HÎÕ˜8àOL‘Ø†*JËM∞ΩÔ|4€˚gƒ⁄[=è
+&$ÿ‘wÎ74Ár}$ëM<)pÃÒEJ2GMEàËÛM“®9À‘…®Õ^w(We˘$”‹ÍO±≥
+“ŒV ö)‚ºC€ˆ_É9åË˘JÑ$ûÜÃ/ù:dG]dê◊„WK∆sﬁ≈s˙ü<´[ãV‡tB˚Œ)?ºâ˘¯Ã„í0_!Ì…!Ú‰4˙EÕ«©yÒ„ÍPK    FnEsm±Ìã  :     docProps/app.xmlùS¡n€0ΩÔ+›9¡0Å¨¢H7Ù–bí∂gN¶c°∂$à¨ëÏÎ';∞Î¥=Õß««áß'äV7«∂…:ådΩ+ƒrëãùÒ•uáB<Ì]]ãå\	çwXàí∏—ﬂ‘6˙Äë-Rñ¢fk)…‘ÿ-R€•NÂcú xêæ™¨¡;oﬁZt,Wy˛C‚ë—ïX^Ö…Pú◊ˇØiÈMüèû˜ßê¸¥∫°±8]R?Z=˘ä≥üGÉçíÛ¶JF;4o—ÚIÁJŒKµ3–‡&Î
+B%ﬂ	uè–œl6íVØ;4ÏcFˆoö⁄JdÄ∞èSà¢«‚,;nq‘/>æRç»§‰DpÆùc˚]/AóB9I¯2‚ﬁrÉÙª⁄B‰//ÁâábñqgCàx˚9·x÷˜ço∏”lˆÉè√–ï€Í∞7ò–ÉuØÙˆ˛«¡_íjWCƒ2Ω’Ù0°Ó”b”Î75∏ñ£Ês£_ìÁÛØ†ó´Eûæa;FN…˜≠◊ˇ PK    FnEXÙÂæØ  s     docProps/core.xml•ìQo€ Öﬂ˜+Øïv∑Æ≤™m]üZmRR5ØÆ‡9ﬁØ&âõ™}ò¥7£Û›sπáÎ˙fﬂµË78Øå^‡"ßÅF*ΩY‡«’]vçë\Kﬁ<Ç«7ÏC-l%åÉüŒXpAÅG—H˚JÿﬁÜ`+BºÿB«}	≈∆∏éáxtbπÿÒêí“+“A‡íN&√ÃŒé¯h)≈li{◊&)¥–ÅûyA^ÿ ÆÛÔ$ÂåÏT-ºãûƒôﬁ{5É√0‰√eB„˝≤~∏_¶Q3•ß®`VKQ	<«æhÈTØëÁ:p·˙?59Sß$[Ó√CÃºQ øél©¨ç™Ø…[≠>Nx®â‚Õ™√'ÂÈÚ€ÌÍ≥í3zùïW´íVühU¥¨(ù˙ø2yqÌéù˛œˆ‰íb*¥¿~4çÄb`ü—˙~πF+›—Oèò9ÄSâ/ú≤!Ó$CÇÔ¿n-*Û=Q¸˙æ–Ê©‰ú
+}ˇ¸D¯ón't „`úÙÃú’◊vÍòbÜ“Ó«ÿ6∆ç,;}P£ZHË¨NØ˛ˆPK    FnEsë{Y≥  ¶     xl/theme/theme1.xmlÌYOo€6øÔS∫∑≤l…uÇ:EÏÿÎ÷¶∑Cè¥DK¨)Q È§æÌq¿Äa›∞ÀÄ›v∂hÅ]∫Oì≠√÷˝
+{˙cãäÈ6iSlCÎÉ-íø˜üÔÒQæ|Â^Ã–!íÚ§k9"âœöÑ]Î÷hx°c!©p`∆“µÊDZW∂>∏å7UDbÇÄ<ëõ∏kEJ•õ∂-}ò∆Ú"OIk.b¨`(B;¯ÿ∆Ãn6m;∆4±PÇc‡zs2°>A£å•µµ`>`ï(ôM¯L¯πDù"«S'˚ësŸgb÷µ@N¿èF‰û≤√R¡B◊j‰Àﬁ∫l/âòZC´—ÛOIW”fN'¬Òí–∫óvñ¸õˇU‹`0Ëú%øÄ},uV∞Ó∞„Ù<5PÒ∏ ªﬂnØÒo≠‡7zΩû∑Q√∑*ºªÇÔ4⁄Óv≥Üw+º∑™oªﬂo◊^ÖoØ‡áó6⁄nüÉ"FìÈ
+:ãÁ22K»Ñ≥´Fx‡ù≈®P∂∂ª
+˙D≠€k1æÀ≈ yp±¢	RÛîL∞∏>é«Ç‚L ﬁ$X[)¶|π2ï…B“4U]Î„CFTêO|ÒÙ1zÒÙ—Ò˝'«˜9~‡¯˛œ¬´8	u¬ÁﬂÒ˜∑ü¢ø˜¸·Wfº‘ÒøˇÙŸoø~i*¯ÏÎG<yÙÏõœˇ¸·°æ-XáèhL$∫Aé–>è¡6É 2g£Eò÷(pHp†¢∆3ÆGÍŒª-† òÄŒÓ÷t=àƒLQZ◊Äªú≥FsÆe≤tsfIh.f:n„CìÏ˛â–f)ÏdjbŸèHMÕ=—∆!IàBŸüb ªCiÕØª‘\ÚâBw(Íajt…àéïôË*ç!.sluÕ7ª∑Qè3˚rXGBB`fbIXÕç‚ô¬±Qc3y´»§‰¡\¯5áKë	„h)M47≈º¶Ó5ï»ˆ]6èÎH°Ë‘Ñºé9◊ë;|⁄èpúu¶I§c?íSÿ¢ÌqeTÇ◊3$Cp≤6‹∑)QgKÎ[4åÃ$[ô	SJ^œ«9õ`íîıΩV©cöº¨l3
+u˚}Ÿ^¿∑·cß(÷Îpˇ√ΩÉg…Å¨x_°ﬂWËw±BØÀÂÛØÀU)∂ı^;gØmº'î±5g‰∫Ãã∏ÛÇ!LÊÉúhŸÁß<ñ‚j∏P‡¸	Æ>°*:àp
+bú\B(K÷°D)ópª∞÷ÚŒØ®lŒÁº≈Ω–XÌÚ†ònÈ˜Õ%õ|J]P+cpZa≠Ko&Ã)ÄßîÊxfiﬁK•Ÿö7!oŒ^&8Ìf!6
+f$»¸^0XÑÂ‹C$#ê2Fé—ßuJ∑u^Ì5M⁄FÎÕ§ù&H∫8wç8Ô¢‘XâíΩöé,©è–hÂ5=˘8ÌZËπ‡1NÅüÃJfa“µ|UöÚ d>i∞y[:çµ◊D§B™,£Ç*_ZºéI*˝õûõ˘·|∞_WãV«˘µ∞OÜñL&ƒWkf™aπ∆gäàÉ(8Bc6˚Ùvã›P	GEs1ê°nπÒÍô_f¡…◊>ev`ñF∏¨I-ˆ<^Íêè4ıÏ5∫ø¶)≠s4≈{wM…v.4∏≠ øzA 0 ˆh◊‚BE™PQ(†q»eÅ^“"S	±Ïv¶+9¨ÍV¡£(ra§ˆiàÖJß"A»û*Ì|3ß©üØFeùY™+”‚wL	eŸ€ŒÏ∑P¥®&•#r‹…†Ÿ¶Ïá√ˇpÁ„6^ß=®πgÈE\≠ËkG¡∆õ©p∆£∂i∂∏Èù˙®M·öÇ≤/(‹T¯¨ÍoG|¢èñ%Ççx°S¶ﬂrr:w4„2Vo∑ç™B–iº˝ÊSsvkç≥ç∑„lœ‡kÔÂÆ∂WS‘÷.2˘hÂœ,>æ≤w‡~4cJÔùÓ¡•¥ø¯¯ÿÈ÷?PK    FnExË   ê      xl/sharedStrings.xmlÀA¬ @—Ωß ≥∑†cLi&û@@ XH @ô¡ËÌe˘ÛÚ«˘õ6ı¡ 1ìÖ”`@!-ŸGZ-ºûè„ã#Ô∂Lh·áÛtôEıïÿB)7≠y	òπ uyÁöúÙ¨´ÊR—yàí6}6Ê¢ìã™Q‹ﬁs#±`@OPK    FnE‚_úﬁ˘  h     xl/styles.xmlÖîÀnù0Ü˜}
+À˚Ü√ëRµ5ëê∫hT5TÍ÷¿ V|Aˆp
+y˙⁄ò√Eâ6Ã¸>?í˚Q
+rcπV)çoNîÄ™tÕUõ“?E˛˘+%ô™ô–
+R:Å•˜Ÿßƒ‚$‡π@‚w∂gï[ÌX0†^T6•bE∂Í@2{£{Pn•—F2t©i#Îûaµı$)¢ÛÈÙ%íå+ö%jêπDK*=(LÈâFY“hµ)1Bñî‰¬ƒR¬w±E√_`'!VÓ]Êı◊ê«±œ*-¥!¶-SöÁß˘Ú≤brA<2¡K√ΩÖçÁõump!÷æŒ4Y“3D0*w	Y‚bÍak 
+uT∑ÜMÒ˘÷c€«}ì·Ú†Ú∏∞uÌ®Î~ÛÕµ]jSªoø74H˛¡e—˘B<˚Ô˝∑9îé	ﬂËGÌÌ%ﬁãkË¯K0!Òÿ=-∞ﬂb«Ê-Ú∏’˚|¬˙^LπÁ%dOÉ,¡‰Ûë€’8¿ñ=Ãå-ˇ.x´$Lñ∞kJ:m¯´√˚”–Ç√ı„ÉºÚR©µ§aƒﬂŒSÂ®ˇÎ'¶¥a¬∫˘∞ù·Í•–9_5oŒÿ,≠ÊÃV¸YU‚OfJü¸´π6V” Å‰ÍÀ≥õ„H!+›$á]jhÿ ∞X•înÒO®˘ ø—k’/~—∏TÕÒV:èS¥˝#≤ˇPK    FnE(-=ü  “     xl/workbook.xmlçQMO1Ω˜WXæó]*@mµPZ§~©	pvvgŸ∂«Úx‡◊wÏ$¥‹Íã˝Ê„ÕºÁ˘˘£wjâëÇ—«G≠V:Í1‹}≥∫z˚^+Œ6Ù÷Q £üÄı˘‚Õ|KÈaMÙ†§∆—víã	“t	6zÃ9ŒöÜªºÂ#ä$3PÚ6L˜KèÌy»ﬁ5Ô⁄ˆ¨Ò√ûañ˛áÉÜ;∏§nÚÚé$Å≥Y$Òàëıb>†É€ùJec¸aΩÏ˚Ë¥rñÛÁ3ÙFü§-º
+§)~ö–p⁄ûÍfÒ¢¸WR‚Ï®V#Ú›>Qä }ã∞Âøı*€e‹¿ ÆçßÌîÈ
+]Üti3|I4≈Í˚±V&ŒÀ‚K≠Ù–„sYJè¥˝J	ü)dÎñ]"ÁjWI‘&ô¿/û±{UòÌ˙w1»Ë≥V7»∏Fá˘…Ë˙vPT4ˇ»®t∏U®™óÂˇ>r#—Îærß #]˜'ï„–ÿ√Ä˙‚K\ˆÈäÖrïæıËäøã≠Fsv¯Ç|tê˜‚á…πâ˛ﬂ»÷âe ¡Â≈PK    FnE tèü  Ù     xl/worksheets/sheet1.xmlçT…r€0Ω˜+8º◊r‹tèÂLö÷Mg“I&Ks¶EHbM*IŸMøæ µ:…°'è¿juˆß“l÷)4)?ôÕ9ì°T¶H˘√˝ÊÌ'ŒúF
+çR˛éü≠ﬂ¨hwÆåñÆ÷ÿ= óÚ“˚zô$.+°nÜ5:…—V¬ìkãƒQéêë©“…b>ˇêTBôéaiˇáÛ\e≥¶„[Zxö…ï™v|ΩänÏzÖç◊ ¿çeÆ©*aü>É∆çŒ{‡V•@≤^%CûTDTbÚîüü,œ!"¸Tppõy±Ωô©É\[ƒ]8¸N…ÏJ<|≥J^Q7$ï∑¥‡-.P_í,t-!õà#W(.Ë≥á–:Ù@	øªv∆nCç©›7∂âí—‡r—hOu.°õıtv Y'ÕÏAﬂMÊ«u∞~Ë/¬ãı ‚ÅŸVæZÑ;?YÜé≥ v]Q»∑x5n1∆%ÓN|Ù›—Oy.¥#≠p˚ãp7¯.#¨¬ió$àıC›TÊ9JCèê2¥À/[Ùï¿Àß,Iµ$›öáÁ-zƒ–^Ôf;ê«›:¥„¿¢Ò∏Q⁄É†ZÌ—ﬂã≠ÜÁlFø‰#ïk´åøÆ„€`≈∏]ÚÄ‹•„RÜ$Q¿aïi»Èd>˚»ôm∑'⁄ÎhΩÁlãﬁc’{e\‰‡Ω:£Ôùéó
+55´…wß˛B\%¥ä^r|¿)Ô÷5\∞–·|N{ô+è√˙v˛£íæÏ^n[vÎ1©Ú,Q^K˘ufºå˛`£¨ÛìU¢Jè óÙSÈü¶–™0ÎÑËp˙£HŸ>VZﬁâMf[ΩÖ{õí¬ßN∞áÑ©ìá÷Üî#/:C“±7Ä‹·áΩ˛PK    FnEÕKR"x   ç   #   xl/worksheets/_rels/sheet1.xml.relsMå1! {_A∂˜@cÃq◊˘ £ÿp+a!,1˙{)-'ìôy˝‰§ﬁ‘$∂pò(bW∂»ﬁ¬„~›üAIGﬁ0&_Xó›|£Ñ}4b5&,BÔı¢µ∏@e*ïxògi˚¿ÊuE˜BO˙hÃI∑ˇËÂPK      FnEGíD≤X                     [Content_Types].xmlPK      FnE∂78È   K               â  _rels/.relsPK      FnEÑ$±VÈ   π               õ  xl/_rels/workbook.xml.relsPK      FnEsm±Ìã  :               º  docProps/app.xmlPK      FnEXÙÂæØ  s               u  docProps/core.xmlPK      FnEsë{Y≥  ¶               S  xl/theme/theme1.xmlPK      FnExË   ê                7  xl/sharedStrings.xmlPK      FnE‚_úﬁ˘  h               Ë  xl/styles.xmlPK      FnE(-=ü  “                 xl/workbook.xmlPK      FnE tèü  Ù               ÿ  xl/worksheets/sheet1.xmlPK      FnEÕKR"x   ç   #             ≠  xl/worksheets/_rels/sheet1.xml.relsPK      —  f    

@@ -1,0 +1,1483 @@
+<pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598150dba1-trace').style.display = (document.getElementById('cakeErr53f598150dba1-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Post [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53f598150dba1-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598150dba1-code').style.display = (document.getElementById('cakeErr53f598150dba1-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598150dba1-context').style.display = (document.getElementById('cakeErr53f598150dba1-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53f598150dba1-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Post'</span><span style="color: #007700">][</span><span style="color: #DD0000">'title'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53f598150dba1-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 1 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 2 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 3 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 4 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 5 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;44&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 1 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;45&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 2 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;46&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 3 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;47&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 4 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;48&#039;,
+			&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 5 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;49&#039;,
+			&#039;name&#039; =&gt; &#039;asdf&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;38&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;38&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+			&#039;username&#039; =&gt; &#039;andriun&#039;,
+			&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;1&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+		)
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53f598132947b&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 2
+$post = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;44&#039;,
+		&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+		&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981542c0f-trace').style.display = (document.getElementById('cakeErr53f5981542c0f-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Post [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53f5981542c0f-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981542c0f-code').style.display = (document.getElementById('cakeErr53f5981542c0f-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981542c0f-context').style.display = (document.getElementById('cakeErr53f5981542c0f-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53f5981542c0f-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Post'</span><span style="color: #007700">][</span><span style="color: #DD0000">'title'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53f5981542c0f-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 1 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 2 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 3 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 4 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 5 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;44&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 1 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;45&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 2 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;46&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 3 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;47&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 4 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;48&#039;,
+			&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 5 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;49&#039;,
+			&#039;name&#039; =&gt; &#039;asdf&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;38&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;38&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+			&#039;username&#039; =&gt; &#039;andriun&#039;,
+			&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;1&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+		)
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53f598132947b&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 3
+$post = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;45&#039;,
+		&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+		&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981545985-trace').style.display = (document.getElementById('cakeErr53f5981545985-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Post [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53f5981545985-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981545985-code').style.display = (document.getElementById('cakeErr53f5981545985-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981545985-context').style.display = (document.getElementById('cakeErr53f5981545985-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53f5981545985-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Post'</span><span style="color: #007700">][</span><span style="color: #DD0000">'title'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53f5981545985-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 1 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 2 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 3 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 4 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 5 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;44&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 1 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;45&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 2 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;46&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 3 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;47&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 4 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;48&#039;,
+			&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 5 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;49&#039;,
+			&#039;name&#039; =&gt; &#039;asdf&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;38&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;38&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+			&#039;username&#039; =&gt; &#039;andriun&#039;,
+			&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;1&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+		)
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53f598132947b&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 4
+$post = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;46&#039;,
+		&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+		&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981548303-trace').style.display = (document.getElementById('cakeErr53f5981548303-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Post [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53f5981548303-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981548303-code').style.display = (document.getElementById('cakeErr53f5981548303-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f5981548303-context').style.display = (document.getElementById('cakeErr53f5981548303-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53f5981548303-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Post'</span><span style="color: #007700">][</span><span style="color: #DD0000">'title'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53f5981548303-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 1 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 2 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 3 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 4 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 5 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;44&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 1 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;45&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 2 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;46&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 3 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;47&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 4 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;48&#039;,
+			&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 5 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;49&#039;,
+			&#039;name&#039; =&gt; &#039;asdf&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;38&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;38&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+			&#039;username&#039; =&gt; &#039;andriun&#039;,
+			&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;1&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+		)
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53f598132947b&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 5
+$post = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;47&#039;,
+		&#039;name&#039; =&gt; &#039;andriun&#039;,
+		&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598154b1ae-trace').style.display = (document.getElementById('cakeErr53f598154b1ae-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Post [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53f598154b1ae-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598154b1ae-code').style.display = (document.getElementById('cakeErr53f598154b1ae-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598154b1ae-context').style.display = (document.getElementById('cakeErr53f598154b1ae-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53f598154b1ae-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Post'</span><span style="color: #007700">][</span><span style="color: #DD0000">'title'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53f598154b1ae-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 1 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 2 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 3 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 4 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 5 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;44&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 1 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;45&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 2 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;46&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 3 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;47&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 4 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;48&#039;,
+			&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 5 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;49&#039;,
+			&#039;name&#039; =&gt; &#039;asdf&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;38&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;38&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+			&#039;username&#039; =&gt; &#039;andriun&#039;,
+			&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;1&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+		)
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53f598132947b&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 6
+$post = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;48&#039;,
+		&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+		&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;5&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;5&#039;,
+		&#039;name&#039; =&gt; &#039;ola&#039;,
+		&#039;lastname&#039; =&gt; &#039;ola&#039;,
+		&#039;username&#039; =&gt; &#039;admin2&#039;,
+		&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;0&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+	)
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598154dd2f-trace').style.display = (document.getElementById('cakeErr53f598154dd2f-trace').style.display == 'none' ? '' : 'none');"><b>Notice</b> (8)</a>: Undefined index: Post [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53f598154dd2f-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598154dd2f-code').style.display = (document.getElementById('cakeErr53f598154dd2f-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53f598154dd2f-context').style.display = (document.getElementById('cakeErr53f598154dd2f-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53f598154dd2f-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'Post'</span><span style="color: #007700">][</span><span style="color: #DD0000">'title'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53f598154dd2f-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 1 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 2 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 3 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 4 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		),
+		(int) 5 =&gt; array(
+			&#039;Dato&#039; =&gt; array(
+				[maximum depth reached]
+			),
+			&#039;User&#039; =&gt; array(
+				[maximum depth reached]
+			)
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;44&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 1 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;45&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 2 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;46&#039;,
+			&#039;name&#039; =&gt; &#039;Soy Jose Acosta&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;Titulo 1&quot;,&quot;Titulo 2&quot;,&quot;Titulo 3&quot;,&quot;Titulo 4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;jose&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;pablo&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;acosta&quot;,&quot;9&quot;,&quot;10&quot;,&quot;11&quot;,&quot;12&quot;,null,null,null,null,null,null,null,null,null,null,null],[&quot;arias&quot;,&quot;13&quot;,&quot;14&quot;,&quot;15&quot;,&quot;16&quot;,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-20&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-20&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 3 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;47&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,&quot;hola&quot;,&quot;jefe&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;andriun&quot;,&quot;1&quot;,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;santacruz&quot;,&quot;4&quot;,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;nadar&quot;,&quot;5&quot;,&quot;6&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 4 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;48&#039;,
+			&#039;name&#039; =&gt; &#039;este es un mensaje&#039;,
+			&#039;datos&#039; =&gt; &#039;[[&quot;comments: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;    cell: true,&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;5&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;5&#039;,
+			&#039;name&#039; =&gt; &#039;ola&#039;,
+			&#039;lastname&#039; =&gt; &#039;ola&#039;,
+			&#039;username&#039; =&gt; &#039;admin2&#039;,
+			&#039;email&#039; =&gt; &#039;andrewsantacruz@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;0&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-19 05:37:54&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-03 09:24:08&#039;
+		)
+	),
+	(int) 5 =&gt; array(
+		&#039;Dato&#039; =&gt; array(
+			&#039;id&#039; =&gt; &#039;49&#039;,
+			&#039;name&#039; =&gt; &#039;asdf&#039;,
+			&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+			&#039;user_id&#039; =&gt; &#039;38&#039;,
+			&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+		),
+		&#039;User&#039; =&gt; array(
+			&#039;password&#039; =&gt; &#039;*****&#039;,
+			&#039;id&#039; =&gt; &#039;38&#039;,
+			&#039;name&#039; =&gt; &#039;andriun&#039;,
+			&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+			&#039;username&#039; =&gt; &#039;andriun&#039;,
+			&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+			&#039;active&#039; =&gt; &#039;1&#039;,
+			&#039;group_id&#039; =&gt; &#039;1&#039;,
+			&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+			&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+		)
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53f598132947b&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 7
+$post = array(
+	&#039;Dato&#039; =&gt; array(
+		&#039;id&#039; =&gt; &#039;49&#039;,
+		&#039;name&#039; =&gt; &#039;asdf&#039;,
+		&#039;datos&#039; =&gt; &#039;[[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,&quot;andriun&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;1&quot;,&quot;jo&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;2&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;3&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[&quot;salome&quot;,null,&quot;4&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]&#039;,
+		&#039;user_id&#039; =&gt; &#039;38&#039;,
+		&#039;created&#039; =&gt; &#039;2014-08-21&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-21&#039;
+	),
+	&#039;User&#039; =&gt; array(
+		&#039;password&#039; =&gt; &#039;*****&#039;,
+		&#039;id&#039; =&gt; &#039;38&#039;,
+		&#039;name&#039; =&gt; &#039;andriun&#039;,
+		&#039;lastname&#039; =&gt; &#039;andriuns&#039;,
+		&#039;username&#039; =&gt; &#039;andriun&#039;,
+		&#039;email&#039; =&gt; &#039;andriunsanta@hotmail.com&#039;,
+		&#039;active&#039; =&gt; &#039;1&#039;,
+		&#039;group_id&#039; =&gt; &#039;1&#039;,
+		&#039;created&#039; =&gt; &#039;2014-07-27 10:04:39&#039;,
+		&#039;modified&#039; =&gt; &#039;2014-08-12 16:23:35&#039;
+	)
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre>PK    EGíD≤X       [Content_Types].xml≠îMN√0Ö˜ú"Ú%nY ÑövAa	ï(0ˆ§±Íÿñg˙w{&iâ@’nbEˆ{ﬂ¯yÏ—d€∏l	m•ëÅ◊¡Xø(≈€¸)øíÚFπ‡°;@1_çÊªò±ÿc)j¢x/%ÍÖEà‡y¶
+©Qƒøi!£“Kµ y3‹J<ÅßúZ1Ω0?YŸL%zVc‰÷Ib7ÿá˚âÏa/lŸ•P1:´q·rÌÕj™ j0AØñùÕuÎ""Ì‡Ÿ(å	î¡ÄWÏMè‰)TjÂ({‹≤˚>ÛO„¬,XŸ≠¡⁄∆>BˇÜ~◊≠œÇı”§6‹J=°oBZæá∞ºtÏÌX4 ˙æCgÒ,ÖàíQg mrLŸŸØcÔeÎê‡t¯±	Zı?âá¥ªhPv√¬±˙ˇu’jï¿ºR‚Ê∏¯ç˚Ó}¨Cv÷¯PK    E∂78È   K     _rels/.rels≠íÕj√0ÄÔ{
+£{£¥Ö1Fù^ †∑2≤–lÂá$ñ±Ω-}˚yá±∫“√éñ•OüÑv˚y’;áÿã”∞.JPÏåÿﬁµ^Íß’®ò»Y≈±Ü3GÿWwªg)Âöÿı>™qQCóíDå¶„âb!û]˛i$LîÚ3¥Ë…‘2n Ú√oT¶:Z·h∑†Í≥Á[ÿ“4Ω·Éò∑â]∫–yNÏ,€ïπ>§>£j
+-'VÃ)á#í˜EF^6⁄‹nÙ˜¥8q"Kâ–H‡Î>_◊Ñ÷ˇπ¢e∆èÕ<‚áÑ·Ud¯v¡≈TüPK    EÑ$±VÈ   π     xl/_rels/workbook.xml.rels≠í¡j√0DÔ˝
+±˜ZvZJ)ës)Å\[˜Ñ¥∂LlIh7m˝˜UH°üƒ¨ÿô«HÎÕ˜8àOL‘Ø†*JËM∞ΩÔ|4€˚gƒ⁄[=è
+&$ÿ‘wÎ74Ár}$ëM<)pÃÒEJ2GMEàËÛM“®9À‘…®Õ^w(We˘$”‹ÍO±≥
+“ŒV ö)‚ºC€ˆ_É9åË˘JÑ$ûÜÃ/ù:dG]dê◊„WK∆sﬁ≈s˙ü<´[ãV‡tB˚Œ)?ºâ˘¯Ã„í0_!Ì…!Ú‰4˙EÕ«©yÒ„ÍPK    EÅ‚Qú  P     docProps/app.xmlùSAn€0º˜Ω≈îç¢\äA°§°AÿIŒ[je±¶HÇdªØ/%GäúÙTùfg£·.…oé≠&˙†¨…ÈrëQÇF⁄Jô}Nw?ÆÆ)	L⁄ÃÈ	ΩüxÈ≠CíL»i£[3dÉ-ÑEjõ‘©≠o!¶“Ôô≠k%Ò÷ óMd´,˚ —TX]π…êû◊]¸_”  >_x⁄ù\Ú¸ªsZIàÈê‚^IoÉ≠#π;J‘úÕõ<mQæxO"„l^Ú≠çE25ËÄúΩ|É–œ¨ÂÉ‡]\w(£ı$®?ij+J~A¿>NN;
+L§gŸπ∞v!zÒl˝!4à1p6ëúkÁX}ÀAê¿•êMAæå∏SQcx®KÒâóÛƒC:Àx˜[ß-)‡ÄÂ¶$ü°uﬂHBØ#}ó{LÓüÖmò”l#ÖıŒ˙aúçm~ˆÿLËß2áËvˆ"éÎ∏$˘∂èU⁄‡¥Æâ‡õt.Ø{}—ÄŸc5j>6˙ÀÛt~ bπZdÈÓÃ»qˆˆƒ_PK    E◊QF≤º  ö     docProps/core.xml•ìﬂo€ Äﬂ˜W ^'Ïn]d%Æ∂˛–Z≠R3-ØŒxéˇ˚aí∏©÷Iìˆf|ﬂ}‹∞º⁄w
+˝Á•—+\‰#–‹©€˛ææÀ˘¿¥` hX·<æ™ﬂ-π≠∏qËå$xE⁄W‹Æ6[‚˘:ÊÛHËlåÎXàK◊À¯éµ@JJ/IÅ	ôÑôùç¯®|V⁄ﬁ©$úÄÇt§»Ú¬pù3!EŒ»NÜ—¬õË)8”{/gpÜ|∏Hh¨ø õá˚ß‘j&ı4*∏^
+^q,W_3ßåG_¡i¶—Á∂óäπ%9#¶i*Ê√Cú{#A|ˇñÙ'∏<∂|êÅ@±‘Í–ÿ)Ú„‚˙f}áÎí2∫» bM’«À™§ÔiYQ:ÛJÚbÌé;˝üˆdIs	2(®ø5ç‰Ä‚?°Õ˝”≠¡tcx?ùjœúRxÓ§Òí÷∑œ–Yeê $uÄ÷1#Œv`∑ï˘ç(~›Ó9®<âŒ”'ùÔ>ˇR√	ùéh„`úµ9À;ﬁÓi«t<3îûHfk‹X'±ﬂ´Ä© °sÙ∞zıúÍﬂPK    Esë{Y≥  ¶     xl/theme/theme1.xmlÌYOo€6øÔS∫∑≤l…uÇ:EÏÿÎ÷¶∑Cè¥DK¨)Q È§æÌq¿Äa›∞ÀÄ›v∂hÅ]∫Oì≠√÷˝
+{˙cãäÈ6iSlCÎÉ-íø˜üÔÒQæ|Â^Ã–!íÚ§k9"âœöÑ]Î÷hx°c!©p`∆“µÊDZW∂>∏å7UDbÇÄ<ëõ∏kEJ•õ∂-}ò∆Ú"OIk.b¨`(B;¯ÿ∆Ãn6m;∆4±PÇc‡zs2°>A£å•µµ`>`ï(ôM¯L¯πDù"«S'˚ësŸgb÷µ@N¿èF‰û≤√R¡B◊j‰Àﬁ∫l/âòZC´—ÛOIW”fN'¬Òí–∫óvñ¸õˇU‹`0Ëú%øÄ},uV∞Ó∞„Ù<5PÒ∏ ªﬂnØÒo≠‡7zΩû∑Q√∑*ºªÇÔ4⁄Óv≥Üw+º∑™oªﬂo◊^ÖoØ‡áó6⁄nüÉ"FìÈ
+:ãÁ22K»Ñ≥´Fx‡ù≈®P∂∂ª
+˙D≠€k1æÀ≈ yp±¢	RÛîL∞∏>é«Ç‚L ﬁ$X[)¶|π2ï…B“4U]Î„CFTêO|ÒÙ1zÒÙ—Ò˝'«˜9~‡¯˛œ¬´8	u¬ÁﬂÒ˜∑ü¢ø˜¸·Wfº‘ÒøˇÙŸoø~i*¯ÏÎG<yÙÏõœˇ¸·°æ-XáèhL$∫Aé–>è¡6É 2g£Eò÷(pHp†¢∆3ÆGÍŒª-† òÄŒÓ÷t=àƒLQZ◊Äªú≥FsÆe≤tsfIh.f:n„CìÏ˛â–f)ÏdjbŸèHMÕ=—∆!IàBŸüb ªCiÕØª‘\ÚâBw(Íajt…àéïôË*ç!.sluÕ7ª∑Qè3˚rXGBB`fbIXÕç‚ô¬±Qc3y´»§‰¡\¯5áKë	„h)M47≈º¶Ó5ï»ˆ]6èÎH°Ë‘Ñºé9◊ë;|⁄èpúu¶I§c?íSÿ¢ÌqeTÇ◊3$Cp≤6‹∑)QgKÎ[4åÃ$[ô	SJ^œ«9õ`íîıΩV©cöº¨l3
+u˚}Ÿ^¿∑·cß(÷Îpˇ√ΩÉg…Å¨x_°ﬂWËw±BØÀÂÛØÀU)∂ı^;gØmº'î±5g‰∫Ãã∏ÛÇ!LÊÉúhŸÁß<ñ‚j∏P‡¸	Æ>°*:àp
+bú\B(K÷°D)ópª∞÷ÚŒØ®lŒÁº≈Ω–XÌÚ†ònÈ˜Õ%õ|J]P+cpZa≠Ko&Ã)ÄßîÊxfiﬁK•Ÿö7!oŒ^&8Ìf!6
+f$»¸^0XÑÂ‹C$#ê2Fé—ßuJ∑u^Ì5M⁄FÎÕ§ù&H∫8wç8Ô¢‘XâíΩöé,©è–hÂ5=˘8ÌZËπ‡1NÅüÃJfa“µ|UöÚ d>i∞y[:çµ◊D§B™,£Ç*_ZºéI*˝õûõ˘·|∞_WãV«˘µ∞OÜñL&ƒWkf™aπ∆gäàÉ(8Bc6˚Ùvã›P	GEs1ê°nπÒÍô_f¡…◊>ev`ñF∏¨I-ˆ<^Íêè4ıÏ5∫ø¶)≠s4≈{wM…v.4∏≠ øzA 0 ˆh◊‚BE™PQ(†q»eÅ^“"S	±Ïv¶+9¨ÍV¡£(ra§ˆiàÖJß"A»û*Ì|3ß©üØFeùY™+”‚wL	eŸ€ŒÏ∑P¥®&•#r‹…†Ÿ¶Ïá√ˇpÁ„6^ß=®πgÈE\≠ËkG¡∆õ©p∆£∂i∂∏Èù˙®M·öÇ≤/(‹T¯¨ÍoG|¢èñ%Ççx°S¶ﬂrr:w4„2Vo∑ç™B–iº˝ÊSsvkç≥ç∑„lœ‡kÔÂÆ∂WS‘÷.2˘hÂœ,>æ≤w‡~4cJÔùÓ¡•¥ø¯¯ÿÈ÷?PK    ExË   ê      xl/sharedStrings.xmlÀA¬ @—Ωß ≥∑†cLi&û@@ XH @ô¡ËÌe˘ÛÚ«˘õ6ı¡ 1ìÖ”`@!-ŸGZ-ºûè„ã#Ô∂Lh·áÛtôEıïÿB)7≠y	òπ uyÁöúÙ¨´ÊR—yàí6}6Ê¢ìã™Q‹ﬁs#±`@OPK    E‚_úﬁ˘  h     xl/styles.xmlÖîÀnù0Ü˜}
+À˚Ü√ëRµ5ëê∫hT5TÍ÷¿ V|Aˆp
+y˙⁄ò√Eâ6Ã¸>?í˚Q
+rcπV)çoNîÄ™tÕUõ“?E˛˘+%ô™ô–
+R:Å•˜Ÿßƒ‚$‡π@‚w∂gï[ÌX0†^T6•bE∂Í@2{£{Pn•—F2t©i#Îûaµı$)¢ÛÈÙ%íå+ö%jêπDK*=(LÈâFY“hµ)1Bñî‰¬ƒR¬w±E√_`'!VÓ]Êı◊ê«±œ*-¥!¶-SöÁß˘Ú≤brA<2¡K√ΩÖçÁõump!÷æŒ4Y“3D0*w	Y‚bÍak 
+uT∑ÜMÒ˘÷c€«}ì·Ú†Ú∏∞uÌ®Î~ÛÕµ]jSªoø74H˛¡e—˘B<˚Ô˝∑9îé	ﬂËGÌÌ%ﬁãkË¯K0!Òÿ=-∞ﬂb«Ê-Ú∏’˚|¬˙^LπÁ%dOÉ,¡‰Ûë€’8¿ñ=Ãå-ˇ.x´$Lñ∞kJ:m¯´√˚”–Ç√ı„ÉºÚR©µ§aƒﬂŒSÂ®ˇÎ'¶¥a¬∫˘∞ù·Í•–9_5oŒÿ,≠ÊÃV¸YU‚OfJü¸´π6V” Å‰ÍÀ≥õ„H!+›$á]jhÿ ∞X•înÒO®˘ ø—k’/~—∏TÕÒV:èS¥˝#≤ˇPK    E¿Y-í±  Ë     xl/workbook.xmlçQMo”@ΩÛ+V{‡Fù¢∂ÇßiJ+Aâh(Áâ=ÆáÏóv÷I⁄_œÏ&)ÙÜ/≥o>ﬁÃ{û\Ó¨QåLﬁ’˙Ùd§∫∆∑‰k˝sy˝ÓÉVú¿µ`º√Z?!ÎÀÈõ…÷«ı ˚µí˘1h§"2∆Íút\Î>•0Æ*nz¥¿'>†ìJÁ£Ö$0>V,3–rèò¨©ﬁèFïrÜq¸ﬂu‘‡ïoã.ÌI"H"â{
+¨ßìé>ÏU*·¨‹ª3Z‡4o)a[Î3Å~ãØqü2úèŒu5}QæàJ|¬=’≤'˛u(‰¶∑¸∑?CM¢.aUkqÜ‰Ø…$åWêKÙC(æüj’Q‰tü})ùñYzŒG	‚ﬁoo|§gÔò˚&zc T.î!Ÿ¿/û®y’ò`ı#TÎãënàiEÜ“S≠À€`VQ˝#£¸£cTÆ®ûˇFåW3X„‚f°ﬁÇüîºÊªM^.Ω∑mŸ«$èx€ûÊ#]ã9l≥ã,yπ≤…∆J»sÀß˛&f◊:[∂«3/ª1,Ècfí˝Óæz(Ûñ£˜”?PK    EúÆ∂4ª  î     xl/worksheets/sheet1.xmlçUKs⁄0æ˜Wxt/&	°ìIì“t&ùdÚhŒ¬ZcYÎJ2î˛˙Æ‰'ÅCOﬁ˝ÙÌC˚êÁW
+m¡Xâ:ag£1ã@ß(§^'Ïıe˘Ò3ã¨„ZpÖ∂ÀÆÊ;4õ∏àÃl…S:,X0[`‘6aπsÂ,émöC¡ÌK–tí°)∏#’¨cK6\OÖäœ«„i\p©3Û?>0Àd
+∑òVhW;1†∏£;Ÿ\ññ-Ê!¬£YÃ±rJjx4ë≠äÇõ˝P∏£´≥xíÎ‹y ^Ã„ŒNHrÓ´»v}6ªûzF ¸î∞≥9r|ı
+R"∏ˆÂZ!n¸·wÇ®Ã6«›7#≈=eC•r¶Ç|¬›™;*µ≈[ì„‡ÀÁÙŸ¬(Âs ÉﬂM:}∂>∆Pn[Üí—≈dºRé‚‹As◊…h¬¢¶4˜∞ı‰k2>ƒ(+èµóæÂé/Êwë©ÀWrﬂÛ≥ôœ8ı`ìQ:ﬁ˘Iﬁ˘Ô‚$Ô‚à79…õÒ.OÚ.èx”ìºiœãwoÜ]”ú†',„ R/qıãp€È6Õçƒ©áÿ7ÛCU˙=JMÈ!©i◊éà5zÇx∑/¡P+7˝Å†©rﬁCçx®«Ô”à√l-ö˛¬ºr∏î ÅÈ†Rn—ΩïÇ˜ﬁ^µ:ˆGU.ç‘Ó°ª≠˚˝hå;‰ŸW:,ç7‚k¯¡ÕöÆ)»Ëd<˙ƒ"SOwêñA¢AX°sX¥ZÕkæŒËZ•ÒKÅ™2*9ïÔY˛Ö0Íh$Ω4·ÅIX≥Næ¡\˘Û1ÌM&›vÎ’ËoR∏ºyYÍ∞À/2À¿êÀ!ænA˜Õhñ“X7%äÙ&]Nè^˚tp%◊⁄cM!ú^<!Í«ÑÜw ìXGØ·V¶E◊}®xπ3*ôO≠39–Ç“j√ê⁄˝Pˇ PK    EÕKR"x   ç   #   xl/worksheets/_rels/sheet1.xml.relsMå1! {_A∂˜@cÃq◊˘ £ÿp+a!,1˙{)-'ìôy˝‰§ﬁ‘$∂pò(bW∂»ﬁ¬„~›üAIGﬁ0&_Xó›|£Ñ}4b5&,BÔı¢µ∏@e*ïxògi˚¿ÊuE˜BO˙hÃI∑ˇËÂPK      EGíD≤X                     [Content_Types].xmlPK      E∂78È   K               â  _rels/.relsPK      EÑ$±VÈ   π               õ  xl/_rels/workbook.xml.relsPK      EÅ‚Qú  P               º  docProps/app.xmlPK      E◊QF≤º  ö               Ü  docProps/core.xmlPK      Esë{Y≥  ¶               q  xl/theme/theme1.xmlPK      ExË   ê                U  xl/sharedStrings.xmlPK      E‚_úﬁ˘  h                 xl/styles.xmlPK      E¿Y-í±  Ë               *  xl/workbook.xmlPK      EúÆ∂4ª  î                 xl/worksheets/sheet1.xmlPK      EÕKR"x   ç   #             ˘  xl/worksheets/_rels/sheet1.xml.relsPK      —  ≤    

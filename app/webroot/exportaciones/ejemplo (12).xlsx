@@ -1,0 +1,2758 @@
+<div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; &#039;jose&#039;,
+	(int) 1 =&gt; &#039;1&#039;,
+	(int) 2 =&gt; &#039;2&#039;,
+	(int) 3 =&gt; &#039;3&#039;,
+	(int) 4 =&gt; &#039;4&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9eca9eea1-trace').style.display = (document.getElementById('cakeErr53fb9eca9eea1-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'jose' [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53fb9eca9eea1-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9eca9eea1-code').style.display = (document.getElementById('cakeErr53fb9eca9eea1-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9eca9eea1-context').style.display = (document.getElementById('cakeErr53fb9eca9eea1-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53fb9eca9eea1-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;&nbsp;die();</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'0'</span><span style="color: #007700">][</span><span style="color: #DD0000">'jose'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53fb9eca9eea1-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			(int) 0 =&gt; &#039;jose&#039;,
+			(int) 1 =&gt; &#039;1&#039;,
+			(int) 2 =&gt; &#039;2&#039;,
+			(int) 3 =&gt; &#039;3&#039;,
+			(int) 4 =&gt; &#039;4&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 1 =&gt; array(
+			(int) 0 =&gt; &#039;pablo&#039;,
+			(int) 1 =&gt; &#039;5&#039;,
+			(int) 2 =&gt; &#039;6&#039;,
+			(int) 3 =&gt; &#039;7&#039;,
+			(int) 4 =&gt; &#039;8&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 2 =&gt; array(
+			(int) 0 =&gt; &#039;acosta&#039;,
+			(int) 1 =&gt; &#039;9&#039;,
+			(int) 2 =&gt; &#039;10&#039;,
+			(int) 3 =&gt; &#039;11&#039;,
+			(int) 4 =&gt; &#039;12&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 3 =&gt; array(
+			(int) 0 =&gt; &#039;arias&#039;,
+			(int) 1 =&gt; &#039;13&#039;,
+			(int) 2 =&gt; &#039;14&#039;,
+			(int) 3 =&gt; &#039;15&#039;,
+			(int) 4 =&gt; &#039;16&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 4 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 5 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 6 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 7 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 8 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 9 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 10 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 11 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 12 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 13 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 14 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		(int) 0 =&gt; &#039;jose&#039;,
+		(int) 1 =&gt; &#039;1&#039;,
+		(int) 2 =&gt; &#039;2&#039;,
+		(int) 3 =&gt; &#039;3&#039;,
+		(int) 4 =&gt; &#039;4&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 1 =&gt; array(
+		(int) 0 =&gt; &#039;pablo&#039;,
+		(int) 1 =&gt; &#039;5&#039;,
+		(int) 2 =&gt; &#039;6&#039;,
+		(int) 3 =&gt; &#039;7&#039;,
+		(int) 4 =&gt; &#039;8&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 2 =&gt; array(
+		(int) 0 =&gt; &#039;acosta&#039;,
+		(int) 1 =&gt; &#039;9&#039;,
+		(int) 2 =&gt; &#039;10&#039;,
+		(int) 3 =&gt; &#039;11&#039;,
+		(int) 4 =&gt; &#039;12&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 3 =&gt; array(
+		(int) 0 =&gt; &#039;arias&#039;,
+		(int) 1 =&gt; &#039;13&#039;,
+		(int) 2 =&gt; &#039;14&#039;,
+		(int) 3 =&gt; &#039;15&#039;,
+		(int) 4 =&gt; &#039;16&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 4 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 5 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 6 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 7 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 8 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 9 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 10 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 11 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 12 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 13 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 14 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53fb9eca8c8ef&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 2
+$post = array(
+	(int) 0 =&gt; &#039;jose&#039;,
+	(int) 1 =&gt; &#039;1&#039;,
+	(int) 2 =&gt; &#039;2&#039;,
+	(int) 3 =&gt; &#039;3&#039;,
+	(int) 4 =&gt; &#039;4&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; &#039;pablo&#039;,
+	(int) 1 =&gt; &#039;5&#039;,
+	(int) 2 =&gt; &#039;6&#039;,
+	(int) 3 =&gt; &#039;7&#039;,
+	(int) 4 =&gt; &#039;8&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa2c84-trace').style.display = (document.getElementById('cakeErr53fb9ecaa2c84-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'jose' [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53fb9ecaa2c84-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa2c84-code').style.display = (document.getElementById('cakeErr53fb9ecaa2c84-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa2c84-context').style.display = (document.getElementById('cakeErr53fb9ecaa2c84-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53fb9ecaa2c84-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;&nbsp;die();</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'0'</span><span style="color: #007700">][</span><span style="color: #DD0000">'jose'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53fb9ecaa2c84-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			(int) 0 =&gt; &#039;jose&#039;,
+			(int) 1 =&gt; &#039;1&#039;,
+			(int) 2 =&gt; &#039;2&#039;,
+			(int) 3 =&gt; &#039;3&#039;,
+			(int) 4 =&gt; &#039;4&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 1 =&gt; array(
+			(int) 0 =&gt; &#039;pablo&#039;,
+			(int) 1 =&gt; &#039;5&#039;,
+			(int) 2 =&gt; &#039;6&#039;,
+			(int) 3 =&gt; &#039;7&#039;,
+			(int) 4 =&gt; &#039;8&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 2 =&gt; array(
+			(int) 0 =&gt; &#039;acosta&#039;,
+			(int) 1 =&gt; &#039;9&#039;,
+			(int) 2 =&gt; &#039;10&#039;,
+			(int) 3 =&gt; &#039;11&#039;,
+			(int) 4 =&gt; &#039;12&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 3 =&gt; array(
+			(int) 0 =&gt; &#039;arias&#039;,
+			(int) 1 =&gt; &#039;13&#039;,
+			(int) 2 =&gt; &#039;14&#039;,
+			(int) 3 =&gt; &#039;15&#039;,
+			(int) 4 =&gt; &#039;16&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 4 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 5 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 6 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 7 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 8 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 9 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 10 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 11 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 12 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 13 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 14 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		(int) 0 =&gt; &#039;jose&#039;,
+		(int) 1 =&gt; &#039;1&#039;,
+		(int) 2 =&gt; &#039;2&#039;,
+		(int) 3 =&gt; &#039;3&#039;,
+		(int) 4 =&gt; &#039;4&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 1 =&gt; array(
+		(int) 0 =&gt; &#039;pablo&#039;,
+		(int) 1 =&gt; &#039;5&#039;,
+		(int) 2 =&gt; &#039;6&#039;,
+		(int) 3 =&gt; &#039;7&#039;,
+		(int) 4 =&gt; &#039;8&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 2 =&gt; array(
+		(int) 0 =&gt; &#039;acosta&#039;,
+		(int) 1 =&gt; &#039;9&#039;,
+		(int) 2 =&gt; &#039;10&#039;,
+		(int) 3 =&gt; &#039;11&#039;,
+		(int) 4 =&gt; &#039;12&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 3 =&gt; array(
+		(int) 0 =&gt; &#039;arias&#039;,
+		(int) 1 =&gt; &#039;13&#039;,
+		(int) 2 =&gt; &#039;14&#039;,
+		(int) 3 =&gt; &#039;15&#039;,
+		(int) 4 =&gt; &#039;16&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 4 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 5 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 6 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 7 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 8 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 9 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 10 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 11 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 12 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 13 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 14 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53fb9eca8c8ef&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 3
+$post = array(
+	(int) 0 =&gt; &#039;pablo&#039;,
+	(int) 1 =&gt; &#039;5&#039;,
+	(int) 2 =&gt; &#039;6&#039;,
+	(int) 3 =&gt; &#039;7&#039;,
+	(int) 4 =&gt; &#039;8&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; &#039;acosta&#039;,
+	(int) 1 =&gt; &#039;9&#039;,
+	(int) 2 =&gt; &#039;10&#039;,
+	(int) 3 =&gt; &#039;11&#039;,
+	(int) 4 =&gt; &#039;12&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa4d39-trace').style.display = (document.getElementById('cakeErr53fb9ecaa4d39-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'jose' [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53fb9ecaa4d39-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa4d39-code').style.display = (document.getElementById('cakeErr53fb9ecaa4d39-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa4d39-context').style.display = (document.getElementById('cakeErr53fb9ecaa4d39-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53fb9ecaa4d39-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;&nbsp;die();</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'0'</span><span style="color: #007700">][</span><span style="color: #DD0000">'jose'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53fb9ecaa4d39-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			(int) 0 =&gt; &#039;jose&#039;,
+			(int) 1 =&gt; &#039;1&#039;,
+			(int) 2 =&gt; &#039;2&#039;,
+			(int) 3 =&gt; &#039;3&#039;,
+			(int) 4 =&gt; &#039;4&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 1 =&gt; array(
+			(int) 0 =&gt; &#039;pablo&#039;,
+			(int) 1 =&gt; &#039;5&#039;,
+			(int) 2 =&gt; &#039;6&#039;,
+			(int) 3 =&gt; &#039;7&#039;,
+			(int) 4 =&gt; &#039;8&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 2 =&gt; array(
+			(int) 0 =&gt; &#039;acosta&#039;,
+			(int) 1 =&gt; &#039;9&#039;,
+			(int) 2 =&gt; &#039;10&#039;,
+			(int) 3 =&gt; &#039;11&#039;,
+			(int) 4 =&gt; &#039;12&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 3 =&gt; array(
+			(int) 0 =&gt; &#039;arias&#039;,
+			(int) 1 =&gt; &#039;13&#039;,
+			(int) 2 =&gt; &#039;14&#039;,
+			(int) 3 =&gt; &#039;15&#039;,
+			(int) 4 =&gt; &#039;16&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 4 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 5 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 6 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 7 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 8 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 9 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 10 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 11 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 12 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 13 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 14 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		(int) 0 =&gt; &#039;jose&#039;,
+		(int) 1 =&gt; &#039;1&#039;,
+		(int) 2 =&gt; &#039;2&#039;,
+		(int) 3 =&gt; &#039;3&#039;,
+		(int) 4 =&gt; &#039;4&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 1 =&gt; array(
+		(int) 0 =&gt; &#039;pablo&#039;,
+		(int) 1 =&gt; &#039;5&#039;,
+		(int) 2 =&gt; &#039;6&#039;,
+		(int) 3 =&gt; &#039;7&#039;,
+		(int) 4 =&gt; &#039;8&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 2 =&gt; array(
+		(int) 0 =&gt; &#039;acosta&#039;,
+		(int) 1 =&gt; &#039;9&#039;,
+		(int) 2 =&gt; &#039;10&#039;,
+		(int) 3 =&gt; &#039;11&#039;,
+		(int) 4 =&gt; &#039;12&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 3 =&gt; array(
+		(int) 0 =&gt; &#039;arias&#039;,
+		(int) 1 =&gt; &#039;13&#039;,
+		(int) 2 =&gt; &#039;14&#039;,
+		(int) 3 =&gt; &#039;15&#039;,
+		(int) 4 =&gt; &#039;16&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 4 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 5 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 6 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 7 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 8 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 9 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 10 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 11 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 12 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 13 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 14 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53fb9eca8c8ef&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 4
+$post = array(
+	(int) 0 =&gt; &#039;acosta&#039;,
+	(int) 1 =&gt; &#039;9&#039;,
+	(int) 2 =&gt; &#039;10&#039;,
+	(int) 3 =&gt; &#039;11&#039;,
+	(int) 4 =&gt; &#039;12&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; &#039;arias&#039;,
+	(int) 1 =&gt; &#039;13&#039;,
+	(int) 2 =&gt; &#039;14&#039;,
+	(int) 3 =&gt; &#039;15&#039;,
+	(int) 4 =&gt; &#039;16&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa6dab-trace').style.display = (document.getElementById('cakeErr53fb9ecaa6dab-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'jose' [<b>APP\View\Datos\excel.ctp</b>, line <b>23</b>]<div id="cakeErr53fb9ecaa6dab-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa6dab-code').style.display = (document.getElementById('cakeErr53fb9ecaa6dab-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53fb9ecaa6dab-context').style.display = (document.getElementById('cakeErr53fb9ecaa6dab-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53fb9ecaa6dab-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;&nbsp;die();</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;$objPHPExcel</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setActiveSheetIndex</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">)</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setCellValue</span><span style="color: #007700">(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">.</span><span style="color: #0000BB">$i</span><span style="color: #007700">++,&nbsp;</span><span style="color: #0000BB">$post</span><span style="color: #007700">[</span><span style="color: #DD0000">'0'</span><span style="color: #007700">][</span><span style="color: #DD0000">'jose'</span><span style="color: #007700">]);</span></span></code></span></pre><pre id="cakeErr53fb9ecaa6dab-context" class="cake-context" style="display: none;">$viewFile = &#039;C:\xampp\htdocs\admin2\app\View\Datos\excel.ctp&#039;
+$dataForView = array(
+	&#039;posts&#039; =&gt; array(
+		(int) 0 =&gt; array(
+			(int) 0 =&gt; &#039;jose&#039;,
+			(int) 1 =&gt; &#039;1&#039;,
+			(int) 2 =&gt; &#039;2&#039;,
+			(int) 3 =&gt; &#039;3&#039;,
+			(int) 4 =&gt; &#039;4&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 1 =&gt; array(
+			(int) 0 =&gt; &#039;pablo&#039;,
+			(int) 1 =&gt; &#039;5&#039;,
+			(int) 2 =&gt; &#039;6&#039;,
+			(int) 3 =&gt; &#039;7&#039;,
+			(int) 4 =&gt; &#039;8&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 2 =&gt; array(
+			(int) 0 =&gt; &#039;acosta&#039;,
+			(int) 1 =&gt; &#039;9&#039;,
+			(int) 2 =&gt; &#039;10&#039;,
+			(int) 3 =&gt; &#039;11&#039;,
+			(int) 4 =&gt; &#039;12&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 3 =&gt; array(
+			(int) 0 =&gt; &#039;arias&#039;,
+			(int) 1 =&gt; &#039;13&#039;,
+			(int) 2 =&gt; &#039;14&#039;,
+			(int) 3 =&gt; &#039;15&#039;,
+			(int) 4 =&gt; &#039;16&#039;,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 4 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 5 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 6 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 7 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 8 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 9 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 10 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 11 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 12 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 13 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		),
+		(int) 14 =&gt; array(
+			(int) 0 =&gt; null,
+			(int) 1 =&gt; null,
+			(int) 2 =&gt; null,
+			(int) 3 =&gt; null,
+			(int) 4 =&gt; null,
+			(int) 5 =&gt; null,
+			(int) 6 =&gt; null,
+			(int) 7 =&gt; null,
+			(int) 8 =&gt; null,
+			(int) 9 =&gt; null,
+			(int) 10 =&gt; null,
+			(int) 11 =&gt; null,
+			(int) 12 =&gt; null,
+			(int) 13 =&gt; null,
+			(int) 14 =&gt; null,
+			(int) 15 =&gt; null
+		)
+	),
+	&#039;userGroup&#039; =&gt; &#039;admin&#039;
+)
+$posts = array(
+	(int) 0 =&gt; array(
+		(int) 0 =&gt; &#039;jose&#039;,
+		(int) 1 =&gt; &#039;1&#039;,
+		(int) 2 =&gt; &#039;2&#039;,
+		(int) 3 =&gt; &#039;3&#039;,
+		(int) 4 =&gt; &#039;4&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 1 =&gt; array(
+		(int) 0 =&gt; &#039;pablo&#039;,
+		(int) 1 =&gt; &#039;5&#039;,
+		(int) 2 =&gt; &#039;6&#039;,
+		(int) 3 =&gt; &#039;7&#039;,
+		(int) 4 =&gt; &#039;8&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 2 =&gt; array(
+		(int) 0 =&gt; &#039;acosta&#039;,
+		(int) 1 =&gt; &#039;9&#039;,
+		(int) 2 =&gt; &#039;10&#039;,
+		(int) 3 =&gt; &#039;11&#039;,
+		(int) 4 =&gt; &#039;12&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 3 =&gt; array(
+		(int) 0 =&gt; &#039;arias&#039;,
+		(int) 1 =&gt; &#039;13&#039;,
+		(int) 2 =&gt; &#039;14&#039;,
+		(int) 3 =&gt; &#039;15&#039;,
+		(int) 4 =&gt; &#039;16&#039;,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 4 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 5 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 6 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 7 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 8 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 9 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 10 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 11 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 12 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 13 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	),
+	(int) 14 =&gt; array(
+		(int) 0 =&gt; null,
+		(int) 1 =&gt; null,
+		(int) 2 =&gt; null,
+		(int) 3 =&gt; null,
+		(int) 4 =&gt; null,
+		(int) 5 =&gt; null,
+		(int) 6 =&gt; null,
+		(int) 7 =&gt; null,
+		(int) 8 =&gt; null,
+		(int) 9 =&gt; null,
+		(int) 10 =&gt; null,
+		(int) 11 =&gt; null,
+		(int) 12 =&gt; null,
+		(int) 13 =&gt; null,
+		(int) 14 =&gt; null,
+		(int) 15 =&gt; null
+	)
+)
+$userGroup = &#039;admin&#039;
+$objPHPExcel = object(PHPExcel) {
+	[private] _uniqueID =&gt; &#039;53fb9eca8c8ef&#039;
+	[private] _properties =&gt; object(PHPExcel_DocumentProperties) {}
+	[private] _security =&gt; object(PHPExcel_DocumentSecurity) {}
+	[private] _workSheetCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Worksheet) {}
+	)
+	[private] _calculationEngine =&gt; object(PHPExcel_Calculation) {}
+	[private] _activeSheetIndex =&gt; (int) 0
+	[private] _namedRanges =&gt; array()
+	[private] _cellXfSupervisor =&gt; object(PHPExcel_Style) {}
+	[private] _cellXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _cellStyleXfCollection =&gt; array(
+		(int) 0 =&gt; object(PHPExcel_Style) {}
+	)
+	[private] _hasMacros =&gt; false
+	[private] _macrosCode =&gt; null
+	[private] _macrosCertificate =&gt; null
+	[private] _ribbonXMLData =&gt; null
+	[private] _ribbonBinObjects =&gt; null
+}
+$i = (int) 5
+$post = array(
+	(int) 0 =&gt; &#039;arias&#039;,
+	(int) 1 =&gt; &#039;13&#039;,
+	(int) 2 =&gt; &#039;14&#039;,
+	(int) 3 =&gt; &#039;15&#039;,
+	(int) 4 =&gt; &#039;16&#039;,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)</pre><pre class="stack-trace">include - APP\View\Datos\excel.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108</pre></div></pre><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div><div class="cake-debug-output">
+<span><strong>\app\View\Datos\excel.ctp</strong> (line <strong>20</strong>)</span>
+<pre class="cake-debug">
+array(
+	(int) 0 =&gt; null,
+	(int) 1 =&gt; null,
+	(int) 2 =&gt; null,
+	(int) 3 =&gt; null,
+	(int) 4 =&gt; null,
+	(int) 5 =&gt; null,
+	(int) 6 =&gt; null,
+	(int) 7 =&gt; null,
+	(int) 8 =&gt; null,
+	(int) 9 =&gt; null,
+	(int) 10 =&gt; null,
+	(int) 11 =&gt; null,
+	(int) 12 =&gt; null,
+	(int) 13 =&gt; null,
+	(int) 14 =&gt; null,
+	(int) 15 =&gt; null
+)
+</pre>
+</div>PK    —|EGíD≤X       [Content_Types].xml≠îMN√0Ö˜ú"Ú%nY ÑövAa	ï(0ˆ§±Íÿñg˙w{&iâ@’nbEˆ{ﬂ¯yÏ—d€∏l	m•ëÅ◊¡Xø(≈€¸)øíÚFπ‡°;@1_çÊªò±ÿc)j¢x/%ÍÖEà‡y¶
+©Qƒøi!£“Kµ y3‹J<ÅßúZ1Ω0?YŸL%zVc‰÷Ib7ÿá˚âÏa/lŸ•P1:´q·rÌÕj™ j0AØñùÕuÎ""Ì‡Ÿ(å	î¡ÄWÏMè‰)TjÂ({‹≤˚>ÛO„¬,XŸ≠¡⁄∆>BˇÜ~◊≠œÇı”§6‹J=°oBZæá∞ºtÏÌX4 ˙æCgÒ,ÖàíQg mrLŸŸØcÔeÎê‡t¯±	Zı?âá¥ªhPv√¬±˙ˇu’jï¿ºR‚Ê∏¯ç˚Ó}¨Cv÷¯PK    —|E∂78È   K     _rels/.rels≠íÕj√0ÄÔ{
+£{£¥Ö1Fù^ †∑2≤–lÂá$ñ±Ω-}˚yá±∫“√éñ•OüÑv˚y’;áÿã”∞.JPÏåÿﬁµ^Íß’®ò»Y≈±Ü3GÿWwªg)Âöÿı>™qQCóíDå¶„âb!û]˛i$LîÚ3¥Ë…‘2n Ú√oT¶:Z·h∑†Í≥Á[ÿ“4Ω·Éò∑â]∫–yNÏ,€ïπ>§>£j
+-'VÃ)á#í˜EF^6⁄‹nÙ˜¥8q"Kâ–H‡Î>_◊Ñ÷ˇπ¢e∆èÕ<‚áÑ·Ud¯v¡≈TüPK    —|EÑ$±VÈ   π     xl/_rels/workbook.xml.rels≠í¡j√0DÔ˝
+±˜ZvZJ)ës)Å\[˜Ñ¥∂LlIh7m˝˜UH°üƒ¨ÿô«HÎÕ˜8àOL‘Ø†*JËM∞ΩÔ|4€˚gƒ⁄[=è
+&$ÿ‘wÎ74Ár}$ëM<)pÃÒEJ2GMEàËÛM“®9À‘…®Õ^w(We˘$”‹ÍO±≥
+“ŒV ö)‚ºC€ˆ_É9åË˘JÑ$ûÜÃ/ù:dG]dê◊„WK∆sﬁ≈s˙ü<´[ãV‡tB˚Œ)?ºâ˘¯Ã„í0_!Ì…!Ú‰4˙EÕ«©yÒ„ÍPK    —|EÅ‚Qú  P     docProps/app.xmlùSAn€0º˜Ω≈îç¢\äA°§°AÿIŒ[je±¶HÇdªØ/%GäúÙTùfg£·.…oé≠&˙†¨…ÈrëQÇF⁄Jô}Nw?ÆÆ)	L⁄ÃÈ	ΩüxÈ≠CíL»i£[3dÉ-ÑEjõ‘©≠o!¶“Ôô≠k%Ò÷ óMd´,˚ —TX]π…êû◊]¸_”  >_x⁄ù\Ú¸ªsZIàÈê‚^IoÉ≠#π;J‘úÕõ<mQæxO"„l^Ú≠çE25ËÄúΩ|É–œ¨ÂÉ‡]\w(£ı$®?ij+J~A¿>NN;
+L§gŸπ∞v!zÒl˝!4à1p6ëúkÁX}ÀAê¿•êMAæå∏SQcx®KÒâóÛƒC:Àx˜[ß-)‡ÄÂ¶$ü°uﬂHBØ#}ó{LÓüÖmò”l#ÖıŒ˙aúçm~ˆÿLËß2áËvˆ"éÎ∏$˘∂èU⁄‡¥Æâ‡õt.Ø{}—ÄŸc5j>6˙ÀÛt~ bπZdÈÓÃ»qˆˆƒ_PK    —|EuBö`Ω  ö     docProps/core.xml•ìﬂo€ Äﬂ˜W ^'€È∂»r\m˝°=¥Z•fZ^úˇ˜√$qS≠ï*ÌÕ¯æ˚∏;†∫‹w˝ÎÑV+úßF†òÊBµ+¸s}õ,1rû*N•V∞¬#8|Y®ò)ô∂`µÎ8D ïÃ¨÷{S‚ÿ:Í“@®l¥Ì®K€CŸé∂@ä,˚L:îSO…$LÃlƒG%g≥“ÙVFg$t†º#yöìg÷ÉÌ‹´	1rFv¬è^EO¡ôﬁ;1É√0§√"¢°˛úlÓÔc´âP”®‡∫‚¨d®◊∂æ¢VjáæÉUT°Øm/$µ9#¶iJÍ¸}ò{#ÄﬂJ˙¨é-d¿Q(µ<4vä¸Z\]Øoq]d˘Eí-ì‚”∫( ≈≤\\|Ãä2À¶b^Hû≠›qßˇ”û,q.^x	ıè¶Pò‡¥π{‹†58èÆ5ÎßSç„9ÄS
+«¨0>\“˙Ê	:#5‚ÄÑÚ–Z ¬oƒËÃ÷†"›£ÖØõ=ôF—y˙§s˝Ô'`˛=5ú–Èàv0⁄rWÎ≥º„Ìûvå«3CÒâÑa∂⁄éu[pΩÙ®":G´œ©˛PK    —|Esë{Y≥  ¶     xl/theme/theme1.xmlÌYOo€6øÔS∫∑≤l…uÇ:EÏÿÎ÷¶∑Cè¥DK¨)Q È§æÌq¿Äa›∞ÀÄ›v∂hÅ]∫Oì≠√÷˝
+{˙cãäÈ6iSlCÎÉ-íø˜üÔÒQæ|Â^Ã–!íÚ§k9"âœöÑ]Î÷hx°c!©p`∆“µÊDZW∂>∏å7UDbÇÄ<ëõ∏kEJ•õ∂-}ò∆Ú"OIk.b¨`(B;¯ÿ∆Ãn6m;∆4±PÇc‡zs2°>A£å•µµ`>`ï(ôM¯L¯πDù"«S'˚ësŸgb÷µ@N¿èF‰û≤√R¡B◊j‰Àﬁ∫l/âòZC´—ÛOIW”fN'¬Òí–∫óvñ¸õˇU‹`0Ëú%øÄ},uV∞Ó∞„Ù<5PÒ∏ ªﬂnØÒo≠‡7zΩû∑Q√∑*ºªÇÔ4⁄Óv≥Üw+º∑™oªﬂo◊^ÖoØ‡áó6⁄nüÉ"FìÈ
+:ãÁ22K»Ñ≥´Fx‡ù≈®P∂∂ª
+˙D≠€k1æÀ≈ yp±¢	RÛîL∞∏>é«Ç‚L ﬁ$X[)¶|π2ï…B“4U]Î„CFTêO|ÒÙ1zÒÙ—Ò˝'«˜9~‡¯˛œ¬´8	u¬ÁﬂÒ˜∑ü¢ø˜¸·Wfº‘ÒøˇÙŸoø~i*¯ÏÎG<yÙÏõœˇ¸·°æ-XáèhL$∫Aé–>è¡6É 2g£Eò÷(pHp†¢∆3ÆGÍŒª-† òÄŒÓ÷t=àƒLQZ◊Äªú≥FsÆe≤tsfIh.f:n„CìÏ˛â–f)ÏdjbŸèHMÕ=—∆!IàBŸüb ªCiÕØª‘\ÚâBw(Íajt…àéïôË*ç!.sluÕ7ª∑Qè3˚rXGBB`fbIXÕç‚ô¬±Qc3y´»§‰¡\¯5áKë	„h)M47≈º¶Ó5ï»ˆ]6èÎH°Ë‘Ñºé9◊ë;|⁄èpúu¶I§c?íSÿ¢ÌqeTÇ◊3$Cp≤6‹∑)QgKÎ[4åÃ$[ô	SJ^œ«9õ`íîıΩV©cöº¨l3
+u˚}Ÿ^¿∑·cß(÷Îpˇ√ΩÉg…Å¨x_°ﬂWËw±BØÀÂÛØÀU)∂ı^;gØmº'î±5g‰∫Ãã∏ÛÇ!LÊÉúhŸÁß<ñ‚j∏P‡¸	Æ>°*:àp
+bú\B(K÷°D)ópª∞÷ÚŒØ®lŒÁº≈Ω–XÌÚ†ònÈ˜Õ%õ|J]P+cpZa≠Ko&Ã)ÄßîÊxfiﬁK•Ÿö7!oŒ^&8Ìf!6
+f$»¸^0XÑÂ‹C$#ê2Fé—ßuJ∑u^Ì5M⁄FÎÕ§ù&H∫8wç8Ô¢‘XâíΩöé,©è–hÂ5=˘8ÌZËπ‡1NÅüÃJfa“µ|UöÚ d>i∞y[:çµ◊D§B™,£Ç*_ZºéI*˝õûõ˘·|∞_WãV«˘µ∞OÜñL&ƒWkf™aπ∆gäàÉ(8Bc6˚Ùvã›P	GEs1ê°nπÒÍô_f¡…◊>ev`ñF∏¨I-ˆ<^Íêè4ıÏ5∫ø¶)≠s4≈{wM…v.4∏≠ øzA 0 ˆh◊‚BE™PQ(†q»eÅ^“"S	±Ïv¶+9¨ÍV¡£(ra§ˆiàÖJß"A»û*Ì|3ß©üØFeùY™+”‚wL	eŸ€ŒÏ∑P¥®&•#r‹…†Ÿ¶Ïá√ˇpÁ„6^ß=®πgÈE\≠ËkG¡∆õ©p∆£∂i∂∏Èù˙®M·öÇ≤/(‹T¯¨ÍoG|¢èñ%Ççx°S¶ﬂrr:w4„2Vo∑ç™B–iº˝ÊSsvkç≥ç∑„lœ‡kÔÂÆ∂WS‘÷.2˘hÂœ,>æ≤w‡~4cJÔùÓ¡•¥ø¯¯ÿÈ÷?PK    —|E7Jãó   »      xl/sharedStrings.xml]éA
+¬0E˜û"Ãﬁ¶*àHí.O†Ìh#Õ$f¶¢∑7‚Bp˘ﬁÁ¡7›3NÍÅÖC"´¶Ö‘ß!–’¬˘t\Ó@±x¸î-ºê°s√,™¶ƒFëº◊ö˚£Á&e§∫\Râ^*ñ´Ê\–<"JúÙ∫m∑:˙@†f
+˜i&±∞g88#Óf¥8£?˘_¯ü–ıä{PK    —|E‚_úﬁ˘  h     xl/styles.xmlÖîÀnù0Ü˜}
+À˚Ü√ëRµ5ëê∫hT5TÍ÷¿ V|Aˆp
+y˙⁄ò√Eâ6Ã¸>?í˚Q
+rcπV)çoNîÄ™tÕUõ“?E˛˘+%ô™ô–
+R:Å•˜Ÿßƒ‚$‡π@‚w∂gï[ÌX0†^T6•bE∂Í@2{£{Pn•—F2t©i#Îûaµı$)¢ÛÈÙ%íå+ö%jêπDK*=(LÈâFY“hµ)1Bñî‰¬ƒR¬w±E√_`'!VÓ]Êı◊ê«±œ*-¥!¶-SöÁß˘Ú≤brA<2¡K√ΩÖçÁõump!÷æŒ4Y“3D0*w	Y‚bÍak 
+uT∑ÜMÒ˘÷c€«}ì·Ú†Ú∏∞uÌ®Î~ÛÕµ]jSªoø74H˛¡e—˘B<˚Ô˝∑9îé	ﬂËGÌÌ%ﬁãkË¯K0!Òÿ=-∞ﬂb«Ê-Ú∏’˚|¬˙^LπÁ%dOÉ,¡‰Ûë€’8¿ñ=Ãå-ˇ.x´$Lñ∞kJ:m¯´√˚”–Ç√ı„ÉºÚR©µ§aƒﬂŒSÂ®ˇÎ'¶¥a¬∫˘∞ù·Í•–9_5oŒÿ,≠ÊÃV¸YU‚OfJü¸´π6V” Å‰ÍÀ≥õ„H!+›$á]jhÿ ∞X•înÒO®˘ ø—k’/~—∏TÕÒV:èS¥˝#≤ˇPK    —|E¿Y-í±  Ë     xl/workbook.xmlçQMo”@ΩÛ+V{‡Fù¢∂ÇßiJ+Aâh(Áâ=ÆáÏóv÷I⁄_œÏ&)ÙÜ/≥o>ﬁÃ{û\Ó¨QåLﬁ’˙Ùd§∫∆∑‰k˝sy˝ÓÉVú¿µ`º√Z?!ÎÀÈõ…÷«ı ˚µí˘1h§"2∆Íút\Î>•0Æ*nz¥¿'>†ìJÁ£Ö$0>V,3–rèò¨©ﬁèFïrÜq¸ﬂu‘‡ïoã.ÌI"H"â{
+¨ßìé>ÏU*·¨‹ª3Z‡4o)a[Î3Å~ãØqü2úèŒu5}QæàJ|¬=’≤'˛u(‰¶∑¸∑?CM¢.aUkqÜ‰Ø…$åWêKÙC(æüj’Q‰tü})ùñYzŒG	‚ﬁoo|§gÔò˚&zc T.î!Ÿ¿/û®y’ò`ı#TÎãënàiEÜ“S≠À€`VQ˝#£¸£cTÆ®ûˇFåW3X„‚f°ﬁÇüîºÊªM^.Ω∑mŸ«$èx€ûÊ#]ã9l≥ã,yπ≤…∆J»sÀß˛&f◊:[∂«3/ª1,Ècfí˝Óæz(Ûñ£˜”?PK    —|Eµ•˜
+  M     xl/worksheets/sheet1.xmlçV€n€0}ﬂW~_lßÈ-HRtÌ≤Ë–¢óıY±ËX´,yíÏ¨˚˙QÚ%N≠a{(*ùCR§EeqÒ´‡AJ3)ña2â√ D*)€e¯¸¥˛x⁄A	óñ·Ëbıa±ìÍUÁ &@s]í7KT°Ö^Üπ1Â<ätöCAÙDñ p'ì™ Mµç4juû
+M„¯$*≠áπ˙2ÀX
+◊2≠
+¶q¢ÄÉg“9+u∏Z∏˜jµêï·L¿Ω
+tUDΩ}.wxÙ∞ÿ67àVã®◊QÜŒmïŸ2ºLÊó…±•8∆w;=XÜlÅCjÄ:ﬂ∂^)_ÌÊWÑ∞Œ:óª/ä—[LkeT¯ wWíﬂ`]∞/Vçéù/ù‡øÆÄsõ
+~∂˘Ï”µ1ÜÎ.±µ´ûúBF*n0Œ¥áùMfa–÷Êj‡∂(Ò!ÜYY¨;Ù51dµPr®¶~%±MOÊ6„‘Ç6AÙnPØ‚ETcZ)˛°¶NΩ¬È@ò¯ÖG^·—@8ıg^·Ïﬂ¬cØ–}º/Ôdƒ;ıÚNGº3/Ôlƒ;˜ÚŒGº$ˆ7+3ˇ“÷dÃÙ˜·”ﬂ8ÑGLß1˝≠IΩâﬂl{´•i/ï≥óaF∏∆;(7?◊Ω≠SD1πGöÈc/·ìº*ƒ{/”bá‰àÿ†‚Õ[	
+Ø‡Î~É‚40ﬁCÉxh∆∆≠L_Åf´•⁄òTFÆ7†z®dµ4Od√·Ω∑g¡«˛∞ •b¬‹ïnË€˝\k≈=Úh+ÌÜùë-|#jãG8d∏OV®f*πµë•[aá7“YtVÓ§µélù•Èå÷/™ †$XæGˆ‹àíä··^ÜeÿéA€`¬Ì~å˜"cÊIˆc±µ_5y˚$4a◊.^@YñÅBówî~ÆAÏõ—m¨ô“f)a§fr|≠∫ëO8€
+ãµÖhq|™(m¸xk\6—∏[„Ä=}hÿu/ôM≠óXŒËEá÷∞ hˆøV PK    —|EÕKR"x   ç   #   xl/worksheets/_rels/sheet1.xml.relsMå1! {_A∂˜@cÃq◊˘ £ÿp+a!,1˙{)-'ìôy˝‰§ﬁ‘$∂pò(bW∂»ﬁ¬„~›üAIGﬁ0&_Xó›|£Ñ}4b5&,BÔı¢µ∏@e*ïxògi˚¿ÊuE˜BO˙hÃI∑ˇËÂPK      —|EGíD≤X                     [Content_Types].xmlPK      —|E∂78È   K               â  _rels/.relsPK      —|EÑ$±VÈ   π               õ  xl/_rels/workbook.xml.relsPK      —|EÅ‚Qú  P               º  docProps/app.xmlPK      —|EuBö`Ω  ö               Ü  docProps/core.xmlPK      —|Esë{Y≥  ¶               r  xl/theme/theme1.xmlPK      —|E7Jãó   »                V  xl/sharedStrings.xmlPK      —|E‚_úﬁ˘  h                 xl/styles.xmlPK      —|E¿Y-í±  Ë               C  xl/workbook.xmlPK      —|Eµ•˜
+  M               !  xl/worksheets/sheet1.xmlPK      —|EÕKR"x   ç   #             a  xl/worksheets/_rels/sheet1.xml.relsPK      —      
